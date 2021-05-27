@@ -1,0 +1,15 @@
+---
+application:
+  name: "cozyox-com"
+  project: "Cozyox2"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "Cozyox"
+  version: "11"
+routers:
+- name: "main-cozyox-com"
+  routes:
+  - application_name: "cozyox-com"
+    paths:
+    - "/*"
